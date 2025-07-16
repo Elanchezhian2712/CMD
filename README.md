@@ -12,7 +12,12 @@ Manage terminal sessions with `screen` — useful for long-running processes.
 | 🗑️ Kill a screen (from outside) | `screen -S mysession -X quit`     |
 
 
+
+
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 ## 🚀 Docker Commands Cheat Sheet
@@ -26,7 +31,6 @@ Manage terminal sessions with `screen` — useful for long-running processes.
 | Run with volume               | `docker run -v /host/path:/container/path -d myimage`                |
 | Use docker-compose            | `docker-compose up -d`                                               |
 
----
 
 ### 🔁 Restart / Stop / Start Containers
 | Action              | Command                            |
@@ -35,7 +39,6 @@ Manage terminal sessions with `screen` — useful for long-running processes.
 | Start container     | `docker start mycontainer`         |
 | Restart container   | `docker restart mycontainer`       |
 
----
 
 ### 🗑️ Remove Cache / Volumes / Containers
 | Action                         | Command                                      |
@@ -48,7 +51,6 @@ Manage terminal sessions with `screen` — useful for long-running processes.
 | Remove all containers          | `docker rm $(docker ps -aq)`                |
 | Remove all volumes             | `docker volume rm $(docker volume ls -q)`   |
 
----
 
 ### 📦 Volume & Container Management
 | Action                     | Command                                 |
@@ -59,7 +61,6 @@ Manage terminal sessions with `screen` — useful for long-running processes.
 | Remove specific container  | `docker rm container_name`              |
 | Remove specific volume     | `docker volume rm volume_name`          |
 
----
 
 ### 🚀 Deploying with Docker Compose
 | Action                        | Command                                |
