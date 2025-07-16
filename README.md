@@ -86,7 +86,7 @@ Manage terminal sessions with `screen` — useful for long-running processes.
 | Enable at boot     | `sudo systemctl enable nginx`  |
 | Disable at boot    | `sudo systemctl disable nginx` |
 
----
+
 
 ### ⚙️ NGINX Configuration
 
@@ -97,7 +97,7 @@ Manage terminal sessions with `screen` — useful for long-running processes.
 | Edit default config (Ubuntu)  | `sudo nano /etc/nginx/sites-available/default` |
 | List enabled sites            | `ls /etc/nginx/sites-enabled/`              |
 
----
+
 
 ### 🔁 NGINX Logs & Status
 
@@ -107,7 +107,7 @@ Manage terminal sessions with `screen` — useful for long-running processes.
 | Access log          | `sudo tail -f /var/log/nginx/access.log`  |
 | Error log           | `sudo tail -f /var/log/nginx/error.log`   |
 
----
+
 
 ### 🧹 Clear NGINX Cache (if used)
 > Only needed if you’ve configured a proxy cache
